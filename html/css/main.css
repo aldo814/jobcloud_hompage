@@ -130,7 +130,7 @@
 /*section05*/
 #section05{background: url(../images/section05_bg.png) no-repeat bottom right}
 #section05 .partner{display: flex;flex-wrap: wrap;}
-#section05 .partner .item{background: #fff;border: 1px solid #dadada;border-radius: 15px;text-align: center;padding: 4rem;box-sizing: border-box;width: calc(33.333% - 117px);margin-right: 175px;margin-top: 70px}
+#section05 .partner .item{background: #fff;border: 1px solid #dadada;border-radius: 15px;text-align: center;padding: 4rem 2rem;box-sizing: border-box;width: calc(33.333% - 117px);margin-right: 175px;margin-top: 70px;word-break: break-all}
 #section05 .partner .item:nth-child(3n){margin-right: 0}
 #section05 .partner .item .img{display: flex;justify-content: center;align-items: center;height: 77px;margin-bottom: 2rem;}
 #section05 .partner .item .img img{max-width: 100%}
@@ -178,7 +178,7 @@
     .main_desc{margin-top: 2rem}
     
     #main section:not(#section01){height: auto;padding: 4rem 0}
-    #section03 .tab_title{margin: 7rem 0 0 0}
+    #section03 .tab_title{margin: 4rem 0 0 0}
     #section03 .tab_title li{margin-right: 10px;}
     #section03 .tab_title li:last-child{margin-right: 0}
     #section02 .solution_wrap .hover .tit{font-size: 2.4rem;margin-bottom: 1rem}
@@ -188,16 +188,19 @@
     #section04 .swiper-button-next{right: 0}
     #section04 .item{flex-direction: column-reverse;align-items: center;}
     #section04 .txt{width: 100%;text-align: center;}
-    
+    #section04 .qs_slide{margin-top: 4rem}
+    #section05 .partner{margin-top: 2rem}
     #section05 .partner .item{margin-right: 30px;width: calc(33.333% - 20px);margin-top: 30px}
     #section06 .contact_wrap{display: block;}
     #section06 .main_desc.f16{width: 100%}
-    #section06 .contact_wrap .form_wrap{width: 100%;}
+    #section06 .contact_wrap .form_wrap{width: 100%;margin-top: 2rem}
     
 }
     
 
 @media all and (max-width:768px) {
+    .main_tit{font-size: 3rem}
+    .main_desc{margin-top: 1rem;}
     #main #section01 .visual .visual_txt{bottom: 50%;transform: translateY(50%)}
     #main #section01 .visual .visual_txt .visual_tit01{font-size: 3rem}
     #main #section01 .visual .visual_txt .visual_tit02{font-size: 5rem}
@@ -256,12 +259,13 @@
     #section03 .tab_title li:nth-child(8):active span, 
     #section03 .tab_title li:nth-child(8):focus span{background-size: 40px;height: 40px}
     
-    #section04 .tit{margin-bottom: 1.5rem}
+    #section04 .tit{margin-bottom: 1.5rem;padding: 0.6rem 4rem;font-size: 1.6rem}
     #section05 .partner .item{width: calc(50% - 15px);}
     #section05 .partner .item:nth-child(2n){margin-right: 0}
     #section05 .partner .item:nth-child(3n){margin-right: auto}
     #section06 .contact_wrap .form_wrap textarea{padding: 20px;}
     .contact_btn{height: 40px;line-height: 40px;width: 140px}
+    
 }
 
 @media all and (max-width:640px) {
