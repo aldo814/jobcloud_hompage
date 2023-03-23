@@ -130,7 +130,7 @@
 /*section05*/
 #section05{background: url(../images/section05_bg.png) no-repeat bottom right}
 #section05 .partner{display: flex;flex-wrap: wrap;}
-#section05 .partner .item{background: #fff;border: 1px solid #dadada;border-radius: 15px;text-align: center;padding: 4rem 2rem;box-sizing: border-box;width: calc(33.333% - 117px);margin-right: 175px;margin-top: 70px;word-break: break-all}
+#section05 .partner .item{background: #fff;border: 1px solid #dadada;border-radius: 15px;text-align: center;padding: 4rem 2rem;box-sizing: border-box;width: calc(33.333% - 117px);margin-right: 175px;margin-top: 70px;word-break: break-all;color: #666}
 #section05 .partner .item:nth-child(3n){margin-right: 0}
 #section05 .partner .item .img{display: flex;justify-content: center;align-items: center;height: 77px;margin-bottom: 2rem;}
 #section05 .partner .item .img img{max-width: 100%}
