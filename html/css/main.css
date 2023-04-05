@@ -16,7 +16,7 @@
 #main #section01 .visual .swiper-button-prev{background: url(../images/slider_prev.png) no-repeat;left: 205px;top: -8px}
 #main #section01 .visual .swiper-button-next{background: url(../images/slider_next.png) no-repeat;right: auto;left: 260px;top: -8px}
 #main #section01 .swiper_bottom .wrap-autoplay-control{width: 12px;height: 14px;position: absolute;left: 230px;top: -13px}
-#main #section01 .swiper_bottom .wrap-autoplay-control .swiper-button-pause{background: url(../images/slide_stop.png) no-repeat center;border: 0;text-indent: -9999px;cursor: pointer}
+#main #section01 .swiper_bottom .wrap-autoplay-control .swiper-button-pause{background: url(../images/slide_stop.png) no-repeat center;border: 0;text-indent: -9999px;cursor: pointer;display: block}
 #main #section01 .swiper_bottom .wrap-autoplay-control .swiper-button-play{background: url(../images/slide_play.png) no-repeat center;display: none;border: 0;text-indent: -9999px;cursor: pointer;}
 #main #section01 .swiper_bottom .swiper-pagination {background: rgba(255, 255, 255, 0.16);height: 1px;width: 90px;position: absolute;left: 47px;}
 #main #section01 .swiper_bottom  .swiper-pagination-progressbar-fill{background: #7014f2}
