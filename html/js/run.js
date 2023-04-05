@@ -41,14 +41,14 @@ $(document).ready(function () {
                 $('.wrap-autoplay-control > .swiper-button-pause').click(function () {
                     $(this).hide();
                     mySwiper.autoplay.stop();
-                    $('.wrap-autoplay-control > .swiper-button-play').show()
+                    $('.wrap-autoplay-control > .swiper-button-play').css('display','block');
 
                 });
 
                 $('.wrap-autoplay-control > .swiper-button-play').click(function () {
                     $(this).hide();
                     mySwiper.autoplay.start();
-                    $('.wrap-autoplay-control > .swiper-button-pause').show();
+                    $('.wrap-autoplay-control > .swiper-button-pause').css('display','block');
                 });
 
             });
