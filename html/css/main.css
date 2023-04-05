@@ -216,6 +216,9 @@
 }
 
 @media all and (max-width:640px) {
+    #main #section01 .swiper_bottom .wrap-autoplay-control{left: 50px;top: 25px}
+    #main #section01 .visual .swiper-button-prev{left: 20px;top: 30px}
+    #main #section01 .visual .swiper-button-next{left: 83px;top: 30px}
     #section04 .num{padding: 0.5rem 3rem}
     #section04 .desc {word-break: keep-all}
     #section04 .desc br{display: none}

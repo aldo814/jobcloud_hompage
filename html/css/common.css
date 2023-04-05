@@ -43,6 +43,7 @@ select {border:1px solid #dedede;background:url(../images/select_arrow.png) cent
 /*header*/
 #header{position: fixed;z-index: 999;display: flex;padding:20px 50px;align-items: center;width: 100%;justify-content: space-between;box-sizing: border-box;transition: all 0.5s}
 #header.active{padding: 10px 50px ;background: #fff;border-bottom: 1px solid #eaeaea}
+#header .logo img{display: block}
 #header.active #gnb li a{color: #333}
 #header #gnb ul{display: flex;}
 #header #gnb .contact_btn{display: none}
