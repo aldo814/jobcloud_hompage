@@ -216,10 +216,14 @@
 }
 
 @media all and (max-width:640px) {
+    #main #section01 .swiper_bottom .wrap-autoplay-control{top: -11px}
+    #main #section01 .visual .swiper-button-next{left: 258px}
     #section04 .num{padding: 0.5rem 3rem}
     #section04 .desc {word-break: keep-all}
     #section04 .desc br{display: none}
     #section05 .partner .item{width: calc(50% - 10px);margin-right: 20px;margin-top: 20px}
+    #section06 .contact_wrap .form_wrap input[type="text"]{padding: 15px 0}
+    #section06 .contact_wrap .form_wrap textarea{height: 200px}
 }
 
 @media all and (max-width:480px) {
