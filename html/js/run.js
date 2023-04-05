@@ -237,13 +237,14 @@ $(document).ready(function () {
             var _tabList = $(".tab_list");
             var _tabTarget = _tabList.children("li");
              var swiper  = new Swiper('.tbs', {
+                 autoHeight : true,
                  speed: 800,
                 navigation: {
                     nextEl: ".swiper-button-next",
                     prevEl: ".swiper-button-prev",
                 },
-                 on: {
-            slideChange: function(){
+                on: {
+                slideChange: function(){
             	var actIndex = swiper.activeIndex; //현재 액티브 된 슬라이드 번호
             	$(".tab_list li").removeClass("active");
             	$(".tab_list li.tab_"+actIndex).addClass("active");

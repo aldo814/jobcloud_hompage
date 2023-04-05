@@ -167,8 +167,9 @@
     .main_desc{margin-top: 2rem}
     
     #main section:not(#section01){height: auto;padding: 4rem 0}
-    #section02 .solution_wrap{display: block}
-    #section02 .solution_wrap > .item{width: 100%;height: 200px}
+    #section02 .solution_wrap{display: block;margin-top: 5rem}
+    #section02 .solution_wrap > .item{width: 100%;height: 220px}
+    #section02 .solution_wrap .item > .tit{bottom: 50%;transform: translate(-50%,50%);width: 100%;text-align: center}
     #section02 .solution_wrap .hover .tit{font-size: 2.4rem;margin-bottom: 1rem}
     #section03 .tab_wrap{overflow-x: auto;width: 100%;margin-bottom: 3rem;}
    
@@ -195,7 +196,8 @@
     #main #section01 .visual .visual_txt .visual_tit02{font-size: 5rem}
     #main #section01 .visual .visual_txt .visual_tit03{font-size: 4rem}
     #main #section01 .visual .visual_txt .visual_desc{font-size: 1.8rem}
- 
+    #section02 .solution_wrap .item > .tit,
+    #section02 .solution_wrap .hover .tit{font-size: 2.2rem}
     #section03 .swiper-button-next, #section03 .swiper-button-prev{background-size: 15px;width: 15px;height: 30px}
     #section03 .item{display: block;text-align: center;}
     #section03 .item .txt{margin-left: 0}
@@ -214,7 +216,9 @@
 }
 
 @media all and (max-width:640px) {
-   
+    #section04 .num{padding: 0.5rem 3rem}
+    #section04 .desc {word-break: keep-all}
+    #section04 .desc br{display: none}
     #section05 .partner .item{width: calc(50% - 10px);margin-right: 20px;margin-top: 20px}
 }
 
